@@ -1,0 +1,25 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+    /* using group selector */
+}
+
+div > p {
+    color: firebrick;
+    /* using child selector */
+}
+
+.box li {
+    color: blue;
+    /* using descendant selector */
+}
+
+li.done {
+    color: seagreen;
+    /* using chaining selector */
+}
+
+ul p.done {
+    font-size: 0.5rem;
+    /* using a combination of combiners eg descendant and chaining selectors */
+}
